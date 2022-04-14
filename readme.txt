@@ -48,10 +48,6 @@ Answer to foo bar dilemma.
 2. This is the second screen shot
 
 == Changelog ==
-= 1.2 =
-* A change since the previous version.
-* Another change.
-
 = 1.1 =
 * A change since the previous version.
 * Another change.

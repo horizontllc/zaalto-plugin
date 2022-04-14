@@ -6,7 +6,7 @@
 Plugin Name: Zaalto.com
 Plugin URI: https://zaalto.com
 Description: Creado para mejorar el performance de los sitio web wordpress realizados con Zaalto
-Version: 1.0
+Version: 1.1
 Requires at least: 5.8
 Tested up to: 5.9.3
 Author: Zaalto.com
