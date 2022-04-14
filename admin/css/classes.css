@@ -1,0 +1,14 @@
+/*--- Show and Hide ---*/
+.show-from-1024px, .show-768px-to-1023px, .show-max-767px{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    /*Desktops*/ .show-from-1024px{ display: block; }
+}
+@media screen and (min-width: 768px and max-width: 1023px){
+    /*Tablets*/ .show-768px-to-1023px{ display: block; }
+}
+@media screen and (max-width: 767px){
+    /*Phones*/ .show-max-767px{ display: block; }
+}
+/*--- End Show and Hide ---*/

@@ -1,0 +1,87 @@
+/* Global */
+html,body,nav,footer,aside,header,main,section,div,
+h1,h2,h3,h4,h5,h6,p,b,a,span,ul,ol,li,
+form,label,input,textarea,i,button {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+/* End Global */
+
+
+/* Texts */
+h1,h2,h3,h4,h5,h6,p,b,a,span,ul,ol,li,
+label,input,textarea,i,button{ font-family: var(--font-family-inter); }
+
+h1 { font-size: var(--fs9); } h2 { font-size: var(--fs8); } h3 { font-size: var(--fs7); }
+h4 { font-size: var(--fs6); } h5 { font-size: var(--fs5); } h6 { font-size: var(--fs4); }
+
+h1,h2,h3,h4,h5,h6 { color: var(--color-titles); margin-bottom: var(--margin-bottom-xs);}
+
+p,b,a,span,ul,li,label,input,i,button { font-size: var(--font-size-paragraph-m); }
+
+p, label { color: var(--color-paragraphs); margin-bottom: var(--margin-bottom-xs); }
+
+a { color: var(--color-links); }
+a:hover { color: var(--color-links-hover); }
+a[target='_blank']:after {
+    font-family: var(--font-family-material-icons);
+    content: "\f1e1";
+    font-size: var(--font-size-paragraph-s);
+    margin-left: 4px;
+}
+/* End Texts */
+
+
+/* Estructure */
+@media screen and (min-width: 768px){
+    .nav-container, .header-container, .main-container, .footer-container{
+        width: 940px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.nav-container { 
+    padding-top: var(--padding-top-m); 
+    padding-bottom: var(--padding-bottom-m); 
+    display: flex;
+    align-items: center;
+}
+.header-container, .main-container, .footer-container{
+    padding-top: var(--padding-top-l);
+    padding-bottom: var(--padding-bottom-l);
+}
+.footer-container { display: flex; justify-content: space-between; }
+#copyright{ padding:  var(--padding-s); text-align: center;}
+
+button, input { 
+    padding-top:    var(--padding-top-xxs);
+    padding-bottom: var(--padding-top-xxs);
+    padding-left:   var(--padding-left-xs);
+    padding-right:  var(--padding-right-xs);
+}
+textarea { padding: var(--padding-xs); }
+
+button:hover, input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .nav-container, .header-container, .main-container, .footer-container{
+        padding-left:  var(--padding-left-s);
+        padding-right: var(--padding-right-s);
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-columns {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* End Estructure */

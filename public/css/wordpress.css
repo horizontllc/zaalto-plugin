@@ -1,0 +1,40 @@
+/* Estructure */
+
+/* Nav Bar */
+#logo { height: 60px; }
+#menu-menu{ display: flex; align-items: center;}
+#menu-menu li{ padding: var(--padding-xxs);}
+nav { background:    var(--background-content-light-2);}
+/* End Nav Bar */
+
+
+/* Content */
+header { background: var(--background-content); }
+#breadcrumb, #date { padding-bottom: var(--padding-top-xxs);}
+main { background:   var(--background-base-white); }
+
+@media screen and (min-width: 768px){
+    #respond {
+        width: 940px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+#respond { padding-bottom: var(--padding-bottom-l); }
+#respond form p { display: flex; flex-wrap: wrap; }
+#respond label { width: 100%; }
+#respond .required-field-message { display: block; }
+#respond .required {color: var(--color-feedback-error);}
+
+footer { background: var(--background-content-light-2);}
+
+#copyright{ background: var(--background-content-light-1); }
+
+@media screen and (max-width: 768px){
+    #respond{
+        padding-left:  var(--padding-left-s);
+        padding-right: var(--padding-right-s);
+    } 
+}
+/* End Content */

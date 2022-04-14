@@ -1,0 +1,239 @@
+/* Font Family & Material Icons*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/* End Font Family & Material Icons*/
+
+
+/*--- Variables ---*/
+:root {
+    /* Colors */
+    --color-feedback-success-dark:  #00A974;
+    --color-feedback-success:       #00E29A;
+    --color-feedback-success-light: #BFF8E6;
+
+    --color-feedback-error-dark:    #BB223C;
+    --color-feedback-error:         #FA2D50;
+    --color-feedback-error-light:   #FECAD3;
+
+    --color-feedback-alert-dark:    #DDAB3F;
+    --color-feedback-alert:         #FDC348;
+    --color-feedback-alert-light:   #FEE1A4;
+
+    --color-feedback-selected-dark: #3662BE;
+    --color-feedback-selected:      #4882FD;
+    --color-feedback-selected-light:#D1E0FF;
+
+    --color-feedback-disabled-dark: #8590A7;
+    --color-feedback-disabled:      #B2C0DF;
+    --color-feedback-disabled-light:#ECEFF7;
+
+    --color-titles:                  #16181C;
+    --color-subtitles:               #16181C;
+    --color-labels:                  #16181C;
+    --color-paragraphs:              #8590A7;
+    --color-links:                   #4882FD;
+    --color-links-hover:             #3662BE;
+    --color-captions:                #16181C;
+    --color-overlines:               #16181C;
+
+    --background-content-dark-3:    #16181C;
+    --background-content-dark-2:    #59606F;
+    --background-content-dark-1:    #8590A7;
+    --background-content:           #B2C0DF;
+    --background-content-light-1:   #CFD8EB;
+    --background-content-light-2:   #ECEFF7;
+    --background-content-light-3:   #F8F9FC;
+
+    --background-base-white:        #FFFFFF;
+    --background-base-black:        #000000;
+    /* End Colors */
+
+
+    /* Font Family */
+    --font-family-inter: 'Inter';
+    --font-family-material-icons: 'Material Icons';
+    /* End Font Family */
+
+
+    /* Font Sizes */
+    --fs12: 68px;
+    --fs11: 60px;
+    --fs10: 52px;
+    --fs9:  44px;
+    --fs8:  36px;
+    --fs7:  32px;
+    --fs6:  28px;
+    --fs5:  24px;
+    --fs4:  20px;
+    --fs3:  16px;
+    --fs2:  12px;
+    --fs1:  8px;
+    /* End Font Sizes */
+
+
+    /* Font Sizes */
+    --font-size-title-xxl: var(--fs12);
+    --font-size-title-xl:  var(--fs11);
+    --font-size-title-l:   var(--fs10);
+    --font-size-title-m:   var(--fs9);
+    --font-size-title-s:   var(--fs8);
+
+    --font-size-subtitle-xxl: var(--fs8);
+    --font-size-subtitle-xl:  var(--fs7);
+    --font-size-subtitle-l:   var(--fs6);
+    --font-size-subtitle-m:   var(--fs5);
+    --font-size-subtitle-s:   var(--fs4);
+
+    --font-size-paragraph-xxl: var(--fs6);
+    --font-size-paragraph-xl:  var(--fs5);
+    --font-size-paragraph-l:   var(--fs4);
+    --font-size-paragraph-m:   var(--fs3);
+    --font-size-paragraph-s:   var(--fs2);
+
+    --font-size-links-xxl: var(--fs6);
+    --font-size-links-xl:  var(--fs5);
+    --font-size-links-l:   var(--fs4);
+    --font-size-links-m:   var(--fs3);
+    --font-size-links-s:   var(--fs2);
+
+    --font-size-caption-xxl: var(--fs5);
+    --font-size-caption-xl:  var(--fs4);
+    --font-size-caption-l:   var(--fs3);
+    --font-size-caption-m:   var(--fs2);
+    --font-size-caption-s:   var(--fs1);
+
+    --font-size-overline-xxl: var(--fs5);
+    --font-size-overline-xl:  var(--fs4);
+    --font-size-overline-l:   var(--fs3);
+    --font-size-overline-m:   var(--fs2);
+    --font-size-overline-s:   var(--fs1);
+    /* End Font Sizes*/
+
+
+     /* Spacer Sizes */
+     --xxl:  120px;
+     --xl:   80px;
+     --l:    52px;
+     --m:    36px;
+     --s:    24px;
+     --xs:   16px;
+     --xxs:  12px;
+     --xxxs: 8px;
+     /* End Spacer Sizes */
+
+
+    /* Padding */
+    --padding-xxl: var(--xxl);
+    --padding-xl:  var(--xl);
+    --padding-l:   var(--l);
+    --padding-m:   var(--m);
+    --padding-s:   var(--s);
+    --padding-xs:  var(--xs);
+    --padding-xxs: var(--xxs);
+
+    --padding-top-xxl: var(--xxl);
+    --padding-top-xl:  var(--xl);
+    --padding-top-l:   var(--l);
+    --padding-top-m:   var(--m);
+    --padding-top-s:   var(--s);
+    --padding-top-xs:  var(--xs);
+    --padding-top-xxs: var(--xxs);
+
+    --padding-bottom-xxl: var(--xxl);
+    --padding-bottom-xl:  var(--xl);
+    --padding-bottom-l:   var(--l);
+    --padding-bottom-m:   var(--m);
+    --padding-bottom-s:   var(--s);
+    --padding-bottom-xs:  var(--xs);
+    --padding-bottom-xxs: var(--xxs);
+
+    --padding-left-xxl: var(--xxl);
+    --padding-left-xl:  var(--xl);
+    --padding-left-l:   var(--l);
+    --padding-left-m:   var(--m);
+    --padding-left-s:   var(--s);
+    --padding-left-xs:  var(--xs);
+    --padding-left-xxs: var(--xxs);
+
+    --padding-right-xxl: var(--xxl);
+    --padding-right-xl:  var(--xl);
+    --padding-right-l:   var(--l);
+    --padding-right-m:   var(--m);
+    --padding-right-s:   var(--s);
+    --padding-right-xs:  var(--xs);
+    --padding-right-xxs: var(--xxs);
+    /* End Padding */
+
+
+    /* Margin */
+    --margin-xxl: var(--xxl);
+    --margin-xl:  var(--xl);
+    --margin-l:   var(--l);
+    --margin-m:   var(--m);
+    --margin-s:   var(--s);
+    --margin-xs:  var(--xs);
+    --margin-xxs: var(--xxs);
+
+    --margin-top-xxl: var(--xxl);
+    --margin-top-xl:  var(--xl);
+    --margin-top-l:   var(--l);
+    --margin-top-m:   var(--m);
+    --margin-top-s:   var(--s);
+    --margin-top-xs:  var(--xs);
+    --margin-top-xxs: var(--xxs);
+
+    --margin-bottom-xxl: var(--xxl);
+    --margin-bottom-xl:  var(--xl);
+    --margin-bottom-l:   var(--l);
+    --margin-bottom-m:   var(--m);
+    --margin-bottom-s:   var(--s);
+    --margin-bottom-xs:  var(--xs);
+    --margin-bottom-xxs: var(--xxs);
+
+    --margin-left-xxl: var(--xxl);
+    --margin-left-xl:  var(--xl);
+    --margin-left-l:   var(--l);
+    --margin-left-m:   var(--m);
+    --margin-left-s:   var(--s);
+    --margin-left-xs:  var(--xs);
+    --margin-left-xxs: var(--xxs);
+
+    --margin-right-xxl: var(--xxl);
+    --margin-right-xl:  var(--xl);
+    --margin-right-l:   var(--l);
+    --margin-right-m:   var(--m);
+    --margin-right-s:   var(--s);
+    --margin-right-xs:  var(--xs);
+    --margin-right-xxs: var(--xxs);
+    /* End Margin */
+}
+@media screen and (max-width: 767px){
+    :root {
+        /* Spacer Sizes */
+        --xxl: 80px;
+        --xl:  52px;
+        --l:   36px;
+        --m:   24px;
+        --s:   16px;
+        --xs:  12px;
+        --xxs: 8px;
+        /* End Spacer Sizes */
+
+
+        /* Font Sizes */
+        --fs12: 60px;
+        --fs11: 52px;
+        --fs10: 44px;
+        --fs9:  36px;
+        --fs8:  32px;
+        --fs7:  28px;
+        --fs6:  24px;
+        --fs5:  20px;
+        --fs4:  16px;
+        --fs3:  16px;
+        --fs2:  12px;
+        --fs1:  8px;
+        /* End Font Sizes */
+    }
+}
+/*--- End Variables ---*/
