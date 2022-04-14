@@ -3,7 +3,7 @@
 Plugin Name: Updater
 Plugin URI: https://github.com/YahnisElsts/plugin-update-checker/releases/tag/v4.11
 Description: Creado para actualizar plugins desde github
-Version: 1.1
+Version: 1.2
 Requires at least: 5.8
 Tested up to: 5.9.3
 Author: Yahn Elsts
